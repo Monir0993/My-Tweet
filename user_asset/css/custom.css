@@ -1,0 +1,101 @@
+/*body{
+    background-color: whitesmoke;
+}*/
+
+ul li .form-control{
+    border-radius: 10px;
+    height: 30px;
+    font-family: Comic Sans MS;
+}
+
+.modal .modal-content{
+    background-color: whitesmoke;
+}
+
+.navbar.navbar-inverse{
+    border-radius: 0px;
+    background-color: #5555da;
+    border-bottom: 0px;
+}
+
+.navbar.navbar-inverse ul li a{
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+}
+
+.navbar.navbar-inverse ul li ul{
+    //color: black;
+    background-color: #b22222;
+}
+
+.navbar.navbar-inverse ul li ul li a:hover{
+    color: #3f3ff2;
+    background-color: whitesmoke;
+}
+
+.navbar.navbar-inverse ul li ul li a:focus{
+    color: #3f3ff2;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+.profile_pic{
+    
+    height: 200px;
+    width: 180px;
+    background-color: red;
+    margin-top: -150px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.menu{
+    height: 50px;
+    background-color: #FFF;
+    position: static;
+}
+
+.menu .breadcrumb {
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    list-style: outside none none;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+.imgcontainer {
+    //background:  url("../img/Kumu2.jpg") repeat scroll center center / cover ;
+    position:relative;
+    float:left;
+}
+.imgcontainer .caption {
+    font: normal 1em/1.3em arial;
+    font-family: Comic Sans MS;
+    background:#fff;
+    color:#000;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width:180px;
+    opacity:.75;
+    filter:alpha(opacity=85);
+    //margin-left: -15px;
+    font-size: 18px;
+}
+.caption1 {
+    font: normal 1em/1.3em arial;
+    font-family: Comic Sans MS;
+    background:#fff;
+    color:#000;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width:100px;
+    opacity:.75;
+    filter:alpha(opacity=85);
+    //margin-left: -15px;
+    font-size: 14px;
+}
